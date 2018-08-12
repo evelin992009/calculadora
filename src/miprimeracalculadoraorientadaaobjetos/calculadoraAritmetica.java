@@ -16,8 +16,20 @@ public class calculadoraAritmetica {
         int r;
         r=operando1+operando2;
         return r;
-    }
-    int restar();
+               }
+    int restar(){
         int e;
         e=operando1-operando2;
-}
+       return e;
+               }
+    int multiplicar(){
+        int e;
+        e=operando1*operando2;
+       return e;
+               }
+    int dividir(){
+        int e;
+        e=operando1/operando2;
+       return e;
+               }
+    
