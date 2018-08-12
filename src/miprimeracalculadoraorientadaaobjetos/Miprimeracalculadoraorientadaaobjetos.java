@@ -19,7 +19,7 @@ public class Miprimeracalculadoraorientadaaobjetos {
         calculadoraAritmetica miCalculadora;
         // crear objeto
         miCalculadora=new calculadoraAritmetica();
-        System.out.println("selecciones operacion:\n1.sumar");
+        System.out.println("selecciones operacion:\n1.sumar\n2.restar\n3.multiplicar\n4.dividir");
         // to do cambiar la linea para pedirle datos al usuario 
         int opcion=1;
         
@@ -29,7 +29,26 @@ public class Miprimeracalculadoraorientadaaobjetos {
             // to do cambiar la linea para pedirle datos al usuario 
             System.out.println(miCalculadora.sumar());
             
+                   }
+        if(opcion==2){
+        miCalculadora.operando1=4;
+        miCalculadora.operando2=8;
+        // to do cambiar la linea para pedirle datos al usuario 
+        System.out.println(miCalculadora.restar());
+            
+                   }
+         if(opcion==3){
+         miCalculadora.operando1=4;
+         miCalculadora.operando2=8;
+         // to do cambiar la linea para pedirle datos al usuario 
+         System.out.println(miCalculadora.multiplicar());
+                
+                      }
+          if(opcion==1){
+          miCalculadora.operando1=4;
+          miCalculadora.operando2=8;
+         // to do cambiar la linea para pedirle datos al usuario 
+          System.out.println(miCalculadora.dividir());
+                      }
         }
-    }
-    
-}
+             
